@@ -4,7 +4,7 @@ Hej,
 
 Jag heter Per och är snart 45 år, född i Örebro men boendes i Västerhaninge sen över 40 år tillbaks. Har hållt på med datorer så länge jag kan minnas och upptäckt IT-branschens häftiga värld sen länge tillbaks. För 20 år sen bestämde jag mig för att satsa på programmering och har gått ett flertal utbildningar där jag har fördjupat mig inom Microsoft-programmering och .NET med C#. Även databaseri är ett stort intresse och jag har sysslat mycket med SQL Server och programmerat mycket T-SQL.
 
-Men efter att ha sökt jobb en längre tid, så jag fick lämna mitt jobb på CGI vid årsskiftet, och sett att efterfrågan på Java-programmerare är väldigt stor idag, så bestämde jag mig för att ta första steget att bli en duktig Java-programmerare genom att börja på den här utbildningen.
+Men efter att ha sökt jobb en längre tid, då jag fick lämna mitt jobb som IT-konsult på CGI vid årsskiftet, och sett att efterfrågan på Java-programmerare är väldigt stor idag, så bestämde jag mig för att ta första steget att bli en duktig Java-programmerare genom att börja på den här utbildningen.
 
 ### Fritid
 När man sitter bakom datorn hela dagarna, är det viktigt att han någon helt annan fritid. Jag brukar umgås med vänner och bekanta och zumba (inte många killar som tränar sånt). Gillar att resa ner till värmen eller till något helt nytt ställe som **alla** borde se, men helst åker jag på träningsresor till Kanarieöarna eller andra ställen söderut. Då kan det dessutom ingå löpning, swim n run, cykling, yoga, aerobics, spinning och crossfit.
