@@ -1,3 +1,5 @@
+package lecture_3.src;
+
 import java.util.Scanner;
 
 public class Loopar  {
