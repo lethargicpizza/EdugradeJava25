@@ -59,7 +59,7 @@ public class Villkor {
 
         System.out.println("-------");
 
-        // Uppgift 2.2
+        // Uppgift 2.3
         String måltid = "middag";
 
         switch (måltid) {
