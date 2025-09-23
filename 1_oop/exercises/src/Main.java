@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat;
+import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -38,5 +39,41 @@ public class Main {
 
         student.setGrade("A");
         student.showDetails();
+
+        Team t = new Team(3);
+        t.addMember(new Player("Per"));
+        t.addMember(new Player("Nils"));
+        t.addMember(new Player("Carl"));
+
+        Player[] myTeam = t.getMembers();
+        for (int i = 0; i < myTeam.length; i++) {
+            System.out.println(myTeam[i].getName());
+        }
+
+        Zoo myZoo = new Zoo();
+        myZoo.addAnimal(new Animal("Per"));
+        myZoo.addAnimal(new Animal("Fredrik"));
+
+        List<Animal> myAnimals = myZoo.getAnimals();
+        for (int i = 0; i < myAnimals.size(); i++) {
+            System.out.println(myAnimals.get(i).getSpieces());
+        }
+
+        School school = new School(2);
+
+
+        school.addStudent(new Student("Alice", "A", 20));
+        school.addStudent(new Student("Bob", "B", 30));
+
+        System.out.println("Students:");
+        school.listStudents();
+
+        school.addTeacher(new Teacher("Mr. Smith"));
+        school.addTeacher(new Teacher("Mrs. Johnson"));
+        
+        System.out.println("Teachers:");
+        school.listTeachers();
+
+
     }
 }
