@@ -28,7 +28,7 @@ public class Main {
         car1.displayCarInfo();
         car2.displayCarInfo();
 
-        Book book = new Book("Liftarens guide till galaxen", "Douglas Adams", 500);
+        Book book = new Book("Liftarens guide till galaxen", "Douglas Adams", 500, "1996");
         book.showDetails();
 
         book.setDiscount(10);
@@ -59,8 +59,8 @@ public class Main {
             System.out.println(myAnimals.get(i).getSpieces());
         }
 
-        School school = new School(2);
 
+        School school = new School(2);
 
         school.addStudent(new Student("Alice", "A", 20));
         school.addStudent(new Student("Bob", "B", 30));
@@ -70,7 +70,7 @@ public class Main {
 
         school.addTeacher(new Teacher("Mr. Smith"));
         school.addTeacher(new Teacher("Mrs. Johnson"));
-        
+
         System.out.println("Teachers:");
         school.listTeachers();
 

@@ -43,7 +43,6 @@ public class Student {
             this.age = age;
         }
     }
-
     public void showDetails() {
         System.out.println("Name: " + this.name);
         System.out.println("Age: " + this.age);
