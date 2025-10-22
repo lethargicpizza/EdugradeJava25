@@ -1,6 +1,7 @@
 
 
 import java.sql.*;
+import java.time.LocalDateTime;
 
 public class MySQLConnection {
     public static void main(String[] args) {
@@ -42,6 +43,7 @@ public class MySQLConnection {
             }
 
             selectAllGarments(conn);
+            insertGarment(conn);
 
         } catch (SQLException e) {
             // ============================================================
@@ -79,9 +81,32 @@ public class MySQLConnection {
         System.out.println("\n=== Exempel avslutat ===");
     }
 
-    /**
-     * SELECT alla anställda (ingen WHERE-klausul)
-     */
+    private static void insertGarment(Connection conn) throws SQLException {
+        // SQL med platshållare (?)
+        // Varje ? ersätts med ett värde via setString/setInt/etc.
+        String sql = "INSERT INTO Garment (caption, purchased, washrecommendationid, color, comments) VALUES (?, ?, ?, ?, ?)";
+
+        // try-with-resources stänger PreparedStatement automatiskt
+        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+
+            // ============================================================
+            // Klädesplagg
+            // ============================================================
+
+            // pstmt.setString(index, value)
+            // Index börjar på 1 (inte 0!)
+            pstmt.setString(1, "SunTrip");
+            pstmt.setString(2, LocalDateTime.now().toString());
+            pstmt.setInt(3, 3);
+            pstmt.setString(4, "Vit");
+            pstmt.setString(5, "SunTrips trevliga tröja för bara 20 kronor");
+
+            // executeUpdate() returnerar antal påverkade rader
+            int rowsAffected = pstmt.executeUpdate();
+            System.out.println("Infogade IT-avdelning: " + rowsAffected + " rad påverkad");
+        }
+    }
+
     private static void selectAllGarments(Connection conn) throws SQLException {
         String sql = "SELECT * FROM Garment";
 
