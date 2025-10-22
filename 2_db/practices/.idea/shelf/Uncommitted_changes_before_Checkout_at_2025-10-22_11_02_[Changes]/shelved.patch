@@ -1,0 +1,19 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectId\" id=\"34PlBTNG0VKhENdU9Fv7SdIlbZB\" />\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;\r\n  }\r\n}</component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c1c24cbac27c4fef4a5a0fe80ddd86eb947dbfb6)
++++ b/.idea/workspace.xml	(date 1761123732716)
+@@ -1,5 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="main" />
++  </component>
+   <component name="ProjectId" id="34PlBTNG0VKhENdU9Fv7SdIlbZB" />
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
